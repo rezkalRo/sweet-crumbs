@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Crumbs Cookie Shop - Customer Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Sweet Crumbs Cookie Shop</h1>
+    <p>Customer Information</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About Us</a>
+    <a href="location.html">Location &amp; Hours</a>
+    <a class="active" href="customer.html">Customer Information</a>
+</nav>
+
+<main>
+    <section class="form-card">
+        <h2>Create Customer Account</h2>
+        <p>Please enter your information below.</p>
+
+        <form action="#" method="post">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" autocomplete="given-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" autocomplete="family-name" required>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" autocomplete="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" minlength="6" autocomplete="new-password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(856) 555-1234">
+                </div>
+
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="state" value="New Jersey" autocomplete="address-level1">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="favorite-cookie">Favorite Cookie</label>
+                    <input list="cookie-options" id="favorite-cookie" name="favorite-cookie" placeholder="Choose or type a cookie">
+                    <datalist id="cookie-options">
+                        <option value="Chocolate Chip"></option>
+                        <option value="Double Chocolate"></option>
+                        <option value="Oatmeal Raisin"></option>
+                        <option value="Peanut Butter"></option>
+                        <option value="Sugar Cookie"></option>
+                        <option value="Cookies &amp; Cream"></option>
+                        <option value="Red Velvet"></option>
+                        <option value="S'mores Cookie"></option>
+                        <option value="Birthday Cake"></option>
+                        <option value="Salted Caramel"></option>
+                    </datalist>
+                </div>
+            </div>
+
+            <fieldset>
+                <legend>Contact Preference</legend>
+                <label class="choice-label">
+                    <input type="radio" name="contact-method" value="email" checked>
+                    Email
+                </label>
+                <label class="choice-label">
+                    <input type="radio" name="contact-method" value="phone">
+                    Phone
+                </label>
+            </fieldset>
+
+            <div class="form-group">
+                <label for="comments">Suggestions or Comments</label>
+                <textarea id="comments" name="comments" rows="5" placeholder="Tell us what you think..."></textarea>
+            </div>
+
+            <div class="form-actions">
+                <input class="submit-button" type="submit" value="Submit Information">
+                <input class="reset-button" type="reset" value="Clear Form">
+            </div>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p><strong>Sweet Crumbs Cookie Shop</strong></p>
+    <p>Email: hello@sweetcrumbs.example | Phone: (856) 555-0147</p>
+    <p>Serving the Glassboro, NJ area</p>
+    <div class="social-links">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a>
+    </div>
+</footer>
+
+</body>
+</html>

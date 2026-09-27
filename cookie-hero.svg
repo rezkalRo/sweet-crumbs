@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <rect width="900" height="560" fill="#f3dfc5"/>
+  <rect x="55" y="60" width="790" height="440" rx="28" fill="#fff8ef"/>
+  <text x="450" y="125" text-anchor="middle" font-family="Arial" font-size="42" font-weight="bold" fill="#6f452f">Fresh Baked Cookies</text>
+  <g>
+    <circle cx="280" cy="310" r="125" fill="#c9884d"/>
+    <circle cx="620" cy="310" r="125" fill="#d79b5b"/>
+    <g fill="#5b3525">
+      <circle cx="225" cy="255" r="14"/><circle cx="320" cy="235" r="15"/><circle cx="265" cy="330" r="16"/>
+      <circle cx="340" cy="355" r="13"/><circle cx="220" cy="380" r="12"/><circle cx="300" cy="295" r="11"/>
+      <circle cx="565" cy="250" r="14"/><circle cx="655" cy="240" r="15"/><circle cx="605" cy="325" r="16"/>
+      <circle cx="675" cy="355" r="13"/><circle cx="555" cy="375" r="12"/><circle cx="640" cy="290" r="11"/>
+    </g>
+  </g>
+  <text x="450" y="475" text-anchor="middle" font-family="Arial" font-size="28" fill="#87512f">Sweet Crumbs Cookie Shop</text>
+</svg>
